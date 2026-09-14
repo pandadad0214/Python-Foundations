@@ -1,0 +1,18 @@
+{
+    "user": "Sean",
+    "session_time": "2026-09-14 08:23:11",
+    "answers": {
+        "decision_style": "logic",
+        "structure_preference": "structure",
+        "recharge_style": "alone",
+        "trust_basis": "intuition",
+        "mood": "tired"
+    },
+    "axes": {
+        "logic_emotion": 1,
+        "structure_spontaneity": 1,
+        "alone_social": 1,
+        "evidence_intuition": -1
+    },
+    "archetype": "The Architect \u2014 structured, logical, independent, evidence-driven."
+}
