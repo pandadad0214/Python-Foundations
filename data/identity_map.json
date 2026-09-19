@@ -1,0 +1,39 @@
+{
+    "generated_at": "2026-09-19 09:12:09",
+    "nodes": [
+        {
+            "id": "past_0",
+            "type": "past_state",
+            "cognitive": "Architect",
+            "emotional": "Neutral",
+            "timestamp": "2026-09-16 08:46:17"
+        },
+        {
+            "id": "current_identity",
+            "type": "current_state",
+            "core_identity": "Architect (Neutral)",
+            "identity_shift": "Stable",
+            "timestamp": "2026-09-16 08:46:17"
+        },
+        {
+            "id": "future_identity",
+            "type": "predicted_state",
+            "future_projection": "Uncertain Identity \u2014 mixed signals, requires more data.",
+            "predicted_emotional_trajectory": "Insufficient data",
+            "predicted_cognitive_trajectory": "Insufficient data",
+            "timestamp": "2026-09-18 08:49:21"
+        }
+    ],
+    "edges": [
+        {
+            "from": "past_0",
+            "to": "current_identity",
+            "type": "current_transition"
+        },
+        {
+            "from": "current_identity",
+            "to": "future_identity",
+            "type": "forecast_transition"
+        }
+    ]
+}
